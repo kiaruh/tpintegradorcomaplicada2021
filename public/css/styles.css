@@ -1,0 +1,48 @@
+* {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    align-content: center;
+}
+li,a {
+    text-align: left;
+    font-size: 1.4rem;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+li:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+h1, h2{
+font-size: 2rem;
+opacity: 0;
+transform: translateY(3rem);
+animation: fadeInUp 1.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+  }
